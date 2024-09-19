@@ -1,0 +1,34 @@
+* {
+  font-family: "Arial Narrow", sans-serif;
+  background-color: #8ace00;
+}
+
+.mainDiv {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: none;
+}
+
+.titleDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: auto;
+  flex-shrink: 1;
+}
+
+.buttonSelection {
+  border: none;
+}
+
+.scoreLine {
+    text-align: center;
+}
